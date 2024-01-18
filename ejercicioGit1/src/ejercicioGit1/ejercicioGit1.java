@@ -17,7 +17,7 @@ public class ejercicioGit1 {
 
 	        int fila;
 	        int columna;
-	        int asientoSeleccionado;
+	        
 	        boolean finish = false;
 
 	        while (!finish) {
@@ -52,6 +52,7 @@ public class ejercicioGit1 {
 	        }
 
 	        System.out.println("Compra finalizada");
+	        scan.close();
 	    }
 	}
 
